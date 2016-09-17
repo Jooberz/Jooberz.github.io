@@ -2,7 +2,18 @@
 <html>
 <head>
 </head>
+
 <body>
-<p>lol</p>
+<script>
+	{
+		origins: [{lat: 55.93, lng: -3.118}, 'Greenwich, England'],
+  		destinations: ['Stockholm, Sweden', {lat: 50.087, lng: 14.421}],
+  		travelMode: 'DRIVING',
+  		drivingOptions: {
+    		departureTime: new Date(Date.now() + N),  // for the time N milliseconds from now.
+    		trafficModel: 'optimistic'
+  		}
+	}
+</script>
 </body>
 </html>
